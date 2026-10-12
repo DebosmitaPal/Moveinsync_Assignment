@@ -1,0 +1,26 @@
+{
+  "name": "moveinsync-reviews-collector",
+  "version": "1.0.0",
+  "description": "Automated Google Play Store review collector and complaint classifier for MoveInSync",
+  "main": "collect_reviews.js",
+  "scripts": {
+    "start": "node collect_reviews.js",
+    "collect": "node collect_reviews.js",
+    "test-fetch": "node test-fetch.js"
+  },
+  "keywords": [
+    "moveinsync",
+    "reviews",
+    "scraper",
+    "complaint-categorization",
+    "excel",
+    "csv",
+    "google-play"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "google-play-scraper": "^10.0.1"
+  }
+}
